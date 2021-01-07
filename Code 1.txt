@@ -1,0 +1,17 @@
+Public class Employees{
+	String Name;
+	int ssn;
+	String BirthDate;
+	String Address;
+	String JobType;
+}
+public class Secretary extends Employees{
+	int TypingSpeed;
+}
+public class Technician extends Employees{
+	String TGrade;
+}
+public class Engineer extends Employees{
+	String EngType;
+}
+  
